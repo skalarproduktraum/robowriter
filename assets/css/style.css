@@ -345,7 +345,7 @@ table {
       }
       */ }
   .post-content a:hover {
-    border-bottom: 1px dotted #F03838;
+    border-bottom: 1px solid #F03838;
     padding: 0 0 2px; }
   .post-content:last-child {
     margin-bottom: 0; }
@@ -464,12 +464,11 @@ p > img {
 .post-stub-title {
   display: inline-block;
   margin: 0;
+  margin-left: -10px;
   text-transform: none; }
 
 .post-stub-date {
-  display: inline-block; }
-  .post-stub-date:before {
-    content: "/ "; }
+  display: block; }
 
 .next-posts-link a,
 .previous-posts-link a {

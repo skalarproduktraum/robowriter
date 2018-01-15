@@ -364,7 +364,7 @@ table {
 
 .post-content {
     a:hover {
-        border-bottom: 1px dotted $primary;
+        border-bottom: 1px solid $primary;
         padding: 0 0 2px;
     }
 
@@ -516,13 +516,12 @@ p > img {
 .post-stub-title {
     display: inline-block;
     margin: 0;
+    margin-left: -10px;
     text-transform: none;
 }
 
 .post-stub-date {
-    display: inline-block;
-
-    &:before { content: "/ "; }
+    display: block;
 }
 
 .next-posts-link a,
