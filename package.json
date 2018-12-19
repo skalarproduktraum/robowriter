@@ -7,6 +7,10 @@
         "ghost": ">=1.2.0"
     },
 
+    "config": {
+        "posts_per_page": 10
+    },
+
     "author": {
         "name": "Ulrik Guenther",
         "email": "hello@ulrik.is",
@@ -23,7 +27,8 @@
     },
     "keywords": [
         "ghost",
-        "theme"
+        "theme",
+        "ghost-theme"
     ],
 
     "repository": {
