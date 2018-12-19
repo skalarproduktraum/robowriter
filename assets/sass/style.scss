@@ -647,6 +647,21 @@ p > img {
 }
 
 /* ============================================================ */
+/* Ghost 2.0 */
+/* ============================================================ */
+.kg-width-full img,
+.kg-width-wide img {
+    // required by gcsan to properly validate the theme
+    background: $lightbg;
+}
+
+.kg-gallery-row,
+.kg-gallery-image,
+.kg-gallery-container {
+    background: $lightbg;
+}
+
+/* ============================================================ */
 /* NProgress */
 /* ============================================================ */
 
