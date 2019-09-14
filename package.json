@@ -1,10 +1,11 @@
 {
 	"name": "robowriter",
-	"version": "1.1.0",
+	"version": "1.2.0",
     "license": "MIT",
+    "description": "A derivative of ghostwriter, using a nice combination of serif fonts and less AJAX",
 
     "engines": {
-        "ghost": ">=1.2.0"
+        "ghost-api": "v2"
     },
 
     "config": {
