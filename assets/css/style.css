@@ -52,14 +52,15 @@ h1 {
   font-size: 44px; }
 
 h2 {
-  font-size: 32px; }
+  font-size: 36px;
+  margin-bottom: 25px; }
 
 h3 {
   font-size: 30px;
   margin-bottom: 20px; }
 
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 18px; }
 
 h5 {
