@@ -1,41 +1,48 @@
 {
 	"name": "robowriter",
-	"version": "1.2.0",
-    "license": "MIT",
-    "description": "A derivative of ghostwriter, using a nice combination of serif fonts and less AJAX",
+	"version": "1.4.0",
+	"license": "MIT",
+	"description": "A derivative of ghostwriter, using a nice combination of serif fonts and less AJAX",
 
-    "engines": {
-        "ghost-api": "v2"
-    },
+	"engines": {
+		"ghost-api": "v4"
+	},
 
-    "config": {
-        "posts_per_page": 10
-    },
+	"config": {
+		"posts_per_page": 10
+	},
 
-    "author": {
-        "name": "Ulrik Guenther",
-        "email": "hello@ulrik.is",
-        "url": "https://ulrik.is/writing"
-    },
+	"author": {
+		"name": "Ulrik Guenther",
+		"email": "hello@ulrik.is",
+		"url": "https://ulrik.is/writing"
+	},
 
 
-    "gpm": {
-        "type": "theme",
-        "categories": [
-            "Minimal",
-            "Magazine"
-        ]
-    },
-    "keywords": [
-        "ghost",
-        "theme",
-        "ghost-theme"
-    ],
+	"gpm": {
+		"type": "theme",
+		"categories": [
+			"Minimal",
+			"Magazine"
+		]
+	},
 
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/skalarproduktraum/robowriter.git"
-    },
-    "bugs": "https://github.com/skalarproduktraum/robowriter/issues",
-    "contributors": "https://github.com/skalarproduktraum/robowriter/graphs/contributors"
+	"keywords": [
+		"ghost",
+		"theme",
+		"ghost-theme",
+		"robowriter"
+	],
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skalarproduktraum/robowriter.git"
+	},
+
+	"scripts": {
+		"sass:watch": "sass --watch $(pwd)/assets/sass/style.scss:$(pwd)/assets/css/style.css"
+	},
+
+	"bugs": "https://github.com/skalarproduktraum/robowriter/issues",
+	"contributors": "https://github.com/skalarproduktraum/robowriter/graphs/contributors"
 }
